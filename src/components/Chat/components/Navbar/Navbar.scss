@@ -1,0 +1,101 @@
+@import '../../../../assets/scss/variables';
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: $bg-main;
+    padding: 0 10px;
+
+    h2{
+        display: flex;
+        align-self: center;
+        color: white;
+        font-weight: lighter;
+
+    }
+    .fa-icon{
+        color: white;
+        margin-left: 5px;
+    }
+
+    #profile-menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        
+        p{
+            display: flex;
+            align-self: center;
+            color: white;
+        }
+        img{
+            display: flex;
+            color: white;
+            align-self: center;
+            margin-right: 5px;
+            border-radius: 20px;
+        }
+        #profile-options{
+            position: absolute;
+            top: 50px;
+            border-radius: 5px;
+            right: 5px;
+            border: 1px solid #d9d9d9;
+            background-color: white;
+            z-index: 9999;
+            p{
+                margin: 10px 5px;
+                color: black;
+                font-size: small;
+                font-weight: bold;
+                padding: 7px;
+                border-radius: 5px;
+                &:hover{
+                    background-color: $bg-main;
+                    color: white;
+                }
+                
+            }
+        }
+        form{
+            .input-field{
+                
+                input,select{
+                    height: 40px;
+                    width: 80%;
+                    border-width: 0px 0px 1px 0px;
+                    border-color: $bg-main;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+
+
+            }
+            
+        }
+        .btn-success {
+            background-color: $success;
+            border: none;
+            padding: 5px;
+            width: 70px;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            &:hover{
+                background-color: seagreen;
+            }
+        }
+
+        
+    
+    }
+
+
+
+}

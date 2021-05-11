@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.App {
+  text-align: center;
+}
+.card-shadow{
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(64,64,64,0.3);
+  -moz-box-shadow: 2px 2px 2px 2px rgba(64,64,64,0.3);
+  box-shadow: 2px 2px 2px 2px rgba(64,64,64,0.3);
+}
+
+.card-shadow2{
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(64,64,64,0.5);
+  -moz-box-shadow: 4px 4px 4px 4px rgba(64,64,64,0.5);
+  box-shadow: 4px 4px 4px 4px rgba(64,64,64,0.5);
+}
+
+.m-0{
+  margin: 0;
+}
+
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
+}

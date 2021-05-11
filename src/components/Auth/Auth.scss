@@ -1,0 +1,60 @@
+@import '../../assets/scss/_variables.scss';
+
+#auth-container{
+    min-height: 100vh;
+    background-color: $bg-main;
+    #auth-card{
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        
+        &>div {
+            
+            
+            min-width: 500px;
+            margin-top: 2.5rem;
+            background-color: white;
+            border-radius: 20px;
+            
+        }
+        #form-section{
+            min-width: 300px;
+            padding: 20px;
+
+            h1{
+                text-align: center0;
+                font-weight: lighter;
+            }
+
+            form{
+                padding-right: 5px;
+                .input-field{
+                    
+                    input,select{
+                        height: 40px;
+                        width: 80%;
+                        border-width: 0px 0px 1px 0px;
+                        border-color: $bg-main;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+
+
+                }
+                button{
+                    width: 82%;
+                    height: 50px;
+                    background-color: $bg-main;
+                    color: white;
+                    border: none;
+                    border-radius: 35px;
+                    cursor: pointer;
+                    
+                }
+                
+            }
+
+        }
+    }
+}

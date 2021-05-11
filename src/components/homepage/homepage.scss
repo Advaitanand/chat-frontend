@@ -1,0 +1,104 @@
+@import '../../assets/scss/_variables.scss';
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #2a4e96;
+    padding: 0 10px;
+
+    h2{
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        align-self: center;
+        color: white;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+
+    #menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        div{
+
+            padding: 20px;
+
+            p{
+                display: flex;
+                align-self: center;
+                color: white;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+    
+            }
+            #reg-btn{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 40px;
+                background-color: $bg-main;
+
+                &:hover{
+                    background-color: #5976b1;
+                }
+            }
+        }
+    }
+
+}
+#main-body{
+    display: flex;
+    background-color: $bg-main;
+    flex-direction: row;
+    align-items: center;
+    min-height: 88.5vh;
+
+    #headings{
+        div{
+            padding-left: 40%;
+        }
+        padding-left: 5%;
+        color: white;
+        #h1{
+            font-size: 50px;
+        }
+        #h4{
+            font-size: 25px;
+            padding-top: 5px;
+        }
+        #reg-btn{
+            width: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 40px;
+            background-color: white;
+            text-decoration: none;
+
+            &:hover{
+                background-color: black;
+            }
+            a{
+                text-decoration: none;
+                color: $bg-main;
+                font-weight: bold;
+            }
+        }
+        
+    }
+    #image{
+        padding-left: 5%;
+    }
+
+}
+
